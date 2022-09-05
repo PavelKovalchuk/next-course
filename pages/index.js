@@ -11,6 +11,9 @@ export default function HomePage() {
         <li>
           <Link href="/clients">Clients</Link>
         </li>
+        <li>
+          <Link href="/data-fetching">Data Fetching (Static generation)</Link>
+        </li>
       </ul>
     </div>
   );
