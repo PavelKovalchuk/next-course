@@ -1,13 +1,19 @@
 import path from 'path';
 import fs from 'fs/promises';
 
+import Link from 'next/link';
+
 // second step of prerendering
 function HomePage(props) {
   const { products } = props;
   return (
     <ul>
-      {products.map((item) => {
-        return <li key={item.id}>{item.title}</li>;
+      {products.map((product) => {
+        return (
+          <li key={product.id}>
+            <Link href={`/products/${product.id}`}>{product.title}</Link>
+          </li>
+        );
       })}
     </ul>
   );
