@@ -15,6 +15,9 @@ function HomePage(props) {
           </li>
         );
       })}
+      <li>
+        <Link href={'/last-sales'}>client side data fetching</Link>
+      </li>
     </ul>
   );
 }
