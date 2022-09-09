@@ -17,6 +17,9 @@ export default function HomePage() {
         <li>
           <Link href="/api-forms">API Forms</Link>
         </li>
+        <li>
+          <Link href="/feedback">Feedback</Link>
+        </li>
       </ul>
     </div>
   );
