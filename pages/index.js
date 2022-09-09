@@ -14,6 +14,9 @@ export default function HomePage() {
         <li>
           <Link href="/data-fetching">Data Fetching (Static generation)</Link>
         </li>
+        <li>
+          <Link href="/api-forms">API Forms</Link>
+        </li>
       </ul>
     </div>
   );
